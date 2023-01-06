@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner {
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 1000px; */
+    /* background-position: center; */
+    /* max-width: 1600px;
+    max-height: 808px; */
+    /* height: 100%; */
+    /* min-height: 100%; */
+    width: 1600px;
+    height: 808px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: right;
+}
+
+.banner-txt {
+
+    padding-top: 216px;
+    padding-right: 230px;
+    padding-bottom: 166px;
+    padding-left: 900px;
+}
+
+.banner-txt h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-txt p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.banner p {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.btn {
+    color: #005FAC;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 18px 36px;
+
+}
+
+/* ******************main****************** css */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 130px;
+}
+
+.failure {
+    display: flex;
+    gap: 87px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.fail-class {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 280px;
+    color: #151414;
+}
+
+.failure-txt p {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.failure-txt li {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+li {
+    list-style-type: "\1F44D";
+}
+
+/* ******************outside the box****************** */
+.outside-the-box {
+    display: flex;
+    gap: 60px;
+}
+
+.outside-the-box iframe {
+    border-radius: 10px;
+}
+
+.outside-think {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 100px;
+    color: #151414;
+}
+
+/* ******************my plan css****************** */
+.my-plan-section {
+    text-align: center;
+
+}
+
+.my-plans {
+    display: flex;
+    gap: 86px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.plan-content h4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-content p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* ******************gradient image css****************** */
+.gradient {
+    /* background-image:  */
+    background: linear-gradient(90deg, #005FAC 0%, hwb(207 0% 33% / 0) 100%), url(../images/watch.png);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+
+}
+
+.gradient-content {
+    width: 459px;
+    height: 182px;
+    padding-top: 59px;
+    padding-left: 64px;
+
+}
+
+.gradient h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+/* ******************footer****************** */
+.footer {
+    background: #151414;
+    width: 1600px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    width: 1140px;
+    display: flex;
+    gap: 330px;
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 130px 0;
+
+}
+
+.future {
+    width: 485px;
+    height: 317px;
+    /* margin: 130px 0 130px 230px; */
+}
+
+.future h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.future p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 16px;
+
+}
+
+.future img {
+    margin-top: 32px;
+    padding-right: 17px;
+}
+
+.subscribe {
+    width: 325px;
+    height: 204px;
+
+}
+
+.subscribe p {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.subscribe input {
+    margin-top: 31px;
+    margin-bottom: 16px;
+    width: 325px;
+    height: 64px;
+    background: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+::placeholder {
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 21px;
+}
+
+.subscribe button {
+    background: #005FAC;
+    border-radius: 8px;
+    width: 170.11px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+}
